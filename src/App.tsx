@@ -1,5 +1,8 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
+import Footer from '@/composables/Footer';
+import Header from '@/composables/Header';
+
 function App() {
   const queryClient = new QueryClient({
     defaultOptions: {
@@ -14,7 +17,9 @@ function App() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <main>main</main>
+      <Header />
+      <main className="flex flex-col h-screen "></main>
+      <Footer />
     </QueryClientProvider>
   );
 }
