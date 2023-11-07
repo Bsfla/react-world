@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="w-1080 mx-auto h-72 flex items-center justify-between sticky top-0 inset-x-0">
+    <header className="w-1080 mx-auto h-72 flex items-center justify-between   bg-white">
       <span className="navbar-brand">condult</span>
       <ul className="nav navbar-nav pull-xs-right">
         <li className="nav-item">
