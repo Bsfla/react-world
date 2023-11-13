@@ -1,4 +1,4 @@
-export const TagList = () => {
+const TagList = () => {
   return (
     <div className="col-md-3 bg-gray h-40">
       <div className="sidebar">
@@ -34,3 +34,5 @@ export const TagList = () => {
     </div>
   );
 };
+
+export default TagList;
