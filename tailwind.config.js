@@ -5,6 +5,7 @@ export default {
   theme: {
     colors: {
       green: '#5CB85C',
+      gray: 'rgb(203 213 225)',
     },
     extend: {
       width: {
@@ -12,6 +13,9 @@ export default {
       },
       height: {
         72: '72px',
+      },
+      borderColor: {
+        gray: '#ebeaec;',
       },
     },
   },
