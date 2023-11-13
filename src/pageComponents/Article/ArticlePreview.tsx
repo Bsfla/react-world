@@ -1,4 +1,4 @@
-export const ArticlePreview = () => {
+const ArticlePreview = () => {
   return (
     <div className="article-preview">
       <div className="article-meta">
@@ -30,3 +30,5 @@ export const ArticlePreview = () => {
     </div>
   );
 };
+
+export default ArticlePreview;
