@@ -18,7 +18,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <Header />
-      <main className="flex flex-col h-screen ">
+      <main className="flex flex-col">
         <Router />
       </main>
       <Footer />
